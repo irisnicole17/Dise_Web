@@ -1,0 +1,32 @@
+header{
+    background-color: blueviolet;
+    height: 150px;
+}
+
+nav{
+    background-color: rgb(87, 101, 230);
+    width: 25%;
+}
+
+section{
+    background-color: rgb(47, 156, 151);
+    width: 50%;
+}
+
+aside{
+    background-color: rgb(247, 91, 187);
+    width: 25%;
+}
+
+footer{
+    clear: left; 
+    background-color: rgb(67, 81, 163);
+    height: 100px;
+}
+nav,
+ aside,
+ section{
+     float: left;
+     height: 350px;
+
+ }

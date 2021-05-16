@@ -1,0 +1,25 @@
+.Titulo{
+    font-weight: bold;
+    font-size: 40px;
+}
+.subtitulo{
+    font-weight: bold;
+    font-size: 1
+    0px;
+}
+.titulo_noticia{
+    font-weight: bold;
+    font-size: 10px;
+}
+img{
+    float: right;
+}
+p{
+    font-size: 20px;
+    background-color: green;
+
+}
+footer{
+    background-color: yellow;
+    float: right;
+}

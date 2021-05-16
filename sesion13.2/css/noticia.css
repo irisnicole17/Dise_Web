@@ -1,0 +1,16 @@
+header{
+    font-weight: bold;
+    font-size: 50px;
+}
+img{
+    float: right;
+}
+p{
+    font-size: 20px;
+    background-color: green;
+
+}
+footer{
+    background-color: yellow;
+    float: right;
+}

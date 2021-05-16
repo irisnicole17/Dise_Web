@@ -1,0 +1,68 @@
+/*  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}  */
+
+
+.grid{
+    display: grid;
+    grid-template-areas: "head head" 
+    "menu main"
+    "food food";
+}
+
+.a{
+    grid-area: head;
+    background-color: rgb(71, 71, 209);
+}
+.b{
+    grid-area: menu;
+    background-color: red;
+}
+.c{
+    grid-area: main;
+    background-color: yellow;
+}
+.d{
+    grid-area: food;
+    background-color:orange;
+}
+
+
+
+/* .grid{
+    display: grid;
+    grid-template-columns: 50px 100px;
+    grid-template-rows: 100px  50px;
+}
+ */
+
+
+
+/* .a,
+.b,
+.c,
+.d{
+    border-style: solid;
+} */
+
+
+
+/* .a,
+.b,
+.c,
+.d{
+    border: solid;
+} */
+
+
+
+/* 
+.a,
+.b,
+.c,
+.d{
+    border: solid;
+    border-collapse: collapse;
+} */
