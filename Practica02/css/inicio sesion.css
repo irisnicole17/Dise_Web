@@ -84,13 +84,13 @@ div img{
     margin-top: 0%;
     margin-left: 5%;
 }
-#caja0 p{
-    text-align: justify;
-    width: 80%;
-}
-#caja0{
-    padding: 2%;
-    
+
+form{
+    background-color: rgb(178, 174, 209);
+    padding: 5%;
+    margin: 1%;
+    margin-left: 4%;
+    margin-right:50%;
 }
 
 #pie{

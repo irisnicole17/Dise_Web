@@ -7,6 +7,12 @@
       
    
 }
+
+#caja li{
+    float: right;
+    
+}
+
 #caja p{
      font-size:20px;
      font-family:Times New Roman;
@@ -38,7 +44,7 @@ img{
 
 }
 #Barra ul li:hover{
-    background-color: skyblue;
+    background-color: rgb(179, 140, 170);
 }
 
 
@@ -51,14 +57,14 @@ img{
 
 #aside{
     float: right;
-    background-color: cadetblue;
+    background-color: rgb(190, 169, 189);
     width: 250px;
     height: 445px;
     
     
 }
 #aside div{
-    background-color: cyan;
+    background-color: rgb(190, 169, 189);
     width: 200px;
     margin: 15px;
     padding-left: 25px;
@@ -68,8 +74,9 @@ img{
 #aside ul{
     padding-left: 50px;
     padding-top: 0px;
-    
+
 }
+
 div img{
 
     float: right;
@@ -89,7 +96,7 @@ div img{
 
 #pie{
     height: 200px;
-    background-color: rgb(50, 189, 199);   
+    background-color: rgb(190, 169, 189);   
 }
 
  #pie div {

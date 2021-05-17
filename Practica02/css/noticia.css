@@ -1,0 +1,63 @@
+
+#caja{
+  
+    height: 40px;
+    background: rgb(250, 0, 0);
+    padding-bottom:20px ;
+      
+   
+}
+#caja li{
+    float: right;
+    
+}
+
+#caja p{
+     font-size:28px;
+     font-family:Times New Roman;
+     color: rgb(245, 245, 239);
+     padding-top: 1%;
+     text-align: center;
+
+}
+
+img{
+    float:right;
+    margin: 1%;
+}
+
+ #Barra ul{
+     margin: 0%;
+ }
+#Barra ul li  {  
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+#Barra a:link, #Barra a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+#Barra ul li:hover{
+    background-color: rgb(179, 140, 170);
+}
+
+
+#Barra {
+   
+    background: rgb(143, 141, 141);
+    float:none;
+    height: 20px;
+}
+
+
+footer{
+    background-color: rgb(255, 8, 8);
+    float: right;
+    color: white;
+}
