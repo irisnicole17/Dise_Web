@@ -1,14 +1,22 @@
 function guardarDato() {
-    var nombre = document.getElementById("nombre").value;
-    var movil = document.getElementById("movil").value;
-    var email= document.getElementById("email").value;
-    localStorage.setItem(nombre, movil, email);
-    document.getElementById("nombre").value = "";
-    document.getElementById("movil").value = "";
-    document.getElementById("email").value = "";
+    const nombre= document.getElementById("nombre").value;
+    const movil= document.getElementById("movil").value;
+    const email= document.getElementById("email").value;
+
+    const datos={
+        "movil": movil,
+        "email": email,
+
+    };
+
+    localStorage.setItem(nombre, JSON.stringify(datos));
+    document.getElementById("nombre").value= "";
+    document.getElementById("movil").value= "";
+    document.getElementById("email").value= "";
+
     actualizarDatos();
 }
-
+   
 function recuperarDato() {
     var nombre = document.getElementById("nombre").value;
     localStorage.getItem(nombre);
