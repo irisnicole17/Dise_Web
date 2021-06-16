@@ -1,0 +1,64 @@
+div{
+    background: rgb(182, 145, 216);
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    -webkit-animation-name: twisterInUp;
+    animation-name: puffIn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes twisterInUp {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    10% {
+        left: 5rem;
+        top: 0rem;
+        color:rgb(127, 90, 161);
+    }
+
+    30% {
+        top: 5rem;
+        left: 5rem;
+        color: white;
+    }
+    60% {
+        top: 5rem;
+        left:0;
+        color: rgb(127, 90, 161);
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes twisterInUp{
+    0% {
+        left: 0;
+        top: 0;
+    }
+    10% {
+        left: 5rem;
+        top: 0rem;
+        color:rgb(127, 90, 161);
+    }
+
+    30% {
+        top: 5rem;
+        left: 5rem;
+        color: white;
+    }
+    60% {
+        top: 5rem;
+        left:0;
+        color: rgb(127, 90, 161);
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}

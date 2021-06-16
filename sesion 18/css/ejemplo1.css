@@ -1,0 +1,35 @@
+.pf1::first-letter{
+    font-size: 2rem;
+}
+.pf2::first-letter{
+    font-family: 'Times New Roman';
+    font-size: 400%;
+    font-weight: bolder;  /* //mas fuerte el color */
+}
+.seudoEle{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+
+}
+.seudoEle::before{
+    content: ´Hola´;
+    background-color: red;
+}
+.seudoEle::after{
+    content: ´Perú´;
+    background-color: red;
+
+}
+div:hover{
+    background-color: yellow;/* //el enlace resalta cuando pasamos el maus encima  */
+}
+a:hover{
+    color: red;
+}
+a:focus{
+    color: green;
+}
+a:active{
+    color: hotpink
+}

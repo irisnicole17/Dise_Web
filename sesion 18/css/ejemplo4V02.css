@@ -1,0 +1,55 @@
+body{
+    background-image: url(img/fondopacman-2.png);
+    background-repeat: no-repeat;
+}
+div{
+    background: rgb(182, 145, 216);
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animar{
+    0% , 100% {
+        left: 0;
+        top: 0;   
+        
+    }
+    10%, 95% {
+        left: 7rem;
+        top: 0rem;
+        color:rgb(127, 90, 161);
+    }
+
+    20%, 90% {
+        left: 7rem;
+        top: 18rem;
+        color:rgb(127, 90, 161);
+    }
+
+    30% {
+        top: 13rem;
+        left: 10rem;
+        color: white;
+    }
+    40% {
+        left: 13rem;
+        top: 17rem;
+        color:rgb(127, 90, 161);
+    }
+    
+    60% {
+        top: 5rem;
+        left: 1rem;
+        color: rgb(127, 90, 161);
+    }
+    /* 100% {
+        top: 1rem;
+        left: 1rem;
+    } */
+}
